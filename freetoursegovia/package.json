@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@tailwindcss/typography": "github:tailwindcss/typography",
     "tailwindcss": "^3.0.23"
   }
 }
