@@ -28,12 +28,12 @@ public class HomeController {
     @Autowired
     TourRepository tourRepository;
 
-    @GetMapping("/new-index")
+    @GetMapping("/template")
     public String testController(Availability availability, Client client) {
 
         log.info("----# Generic connection to home Mapped");
 
-        return "new-index";
+        return "template";
     }
 
 
