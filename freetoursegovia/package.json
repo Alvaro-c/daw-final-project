@@ -2,5 +2,8 @@
   "devDependencies": {
     "@tailwindcss/typography": "github:tailwindcss/typography",
     "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.0"
   }
 }
