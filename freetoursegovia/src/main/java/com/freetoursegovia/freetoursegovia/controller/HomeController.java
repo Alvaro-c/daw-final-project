@@ -28,6 +28,15 @@ public class HomeController {
     @Autowired
     TourRepository tourRepository;
 
+    @GetMapping("/test")
+    public String testController(Availability availability, Client client) {
+
+        log.info("----# Generic connection to home Mapped");
+
+        return "test";
+    }
+
+
     /**
      * Mapping to landing page
      * @param availability
